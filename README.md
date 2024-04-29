@@ -2,14 +2,11 @@
 
 Code related to the preprint titled "[Beyond cortical geometry: brain dynamics shaped by long-range connections](https://www.biorxiv.org/content/10.1101/2024.04.09.588757v1.abstract)"
 
-The Harmonic Decomposition of Spacetime (HADES) framework that characterises how different harmonic modes defined in space are expressed over time. Here applied to the DMT dataset
-
 ## Folder descriptions
 
-1. `data/`: folder containing data for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
-2. `utils/`: folder containing matlab functions for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
-3. `results/`: folder containing various outputs for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
-4. `figures/`: folder containing figures for the different steps of the HADES pipleine - decomposition, projections, dataset analysis and plotting
+1. `Connectome_Derivation/`: folder containing data and codes to derive the various anatomical priors
+2. `data/`: folder containing various outputs for the different steps of the pipleine - decomposition, projections, dataset analysis and plotting
+3. `results/`: folder containing various outputs to reproduce the Figure 2 and 3 of the manuscript
 
 ## File descriptions
 
@@ -20,31 +17,17 @@ The Harmonic Decomposition of Spacetime (HADES) framework that characterises how
 4. `p4_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to calculate latent space analysis analysis
 
 ## Supplementary file descriptions
-1. `s1_HCP_denseFC_2_vertices.m`: MATLAB script to load the dense FC
-2. `s2_HADES_basis_denseFC_vertex_on_HCP.m`: MATLAB scripts to run the laplace decomposition on the dense FC
-3. `s3_HADES_plotting_basis.m`: MATLAB script to plot the functional harmonics on the cortical surface
+1. `generate_Figure2_eigenmode_analysis_32k_EDRLR_all_subjects_fmri.m`: MATLAB script to reproduce Figure 2
+2. `generate_result1_eigenmode_analysis_32k_EDRLR_all_subjects_tmri.m`: MATLAB script to reproduce parts of Figure 3
+3. `generate_Figure3_eigenmode_plotting_32k_connectome_v7_tk14.m`: MATLAB script to reproduce parts of Figure 3
 
 ## Installation
 Simply download the repository to get started.
-In order to run the code two additional files (Functional Harmonics (FHs) and projections of FHs to the DMT dataset) have to be downloaded from the OSF repository: https://osf.io/asntf/ you can find further instruction in the results folder.
-
-HADES pipeline [p1-p4].
-
-To run the code p1 uses the FHs projections on the fMRI resting-state data. The OSF repository provided the FHs projections onto the DMT dataset.
-
-For personal use the appropriate dataset FHs projections should be provided in the cifti 64k vertices format.
-
-Inside each code file, you'll find comments and documentation to guide you through usage.
-The repository serves as standalone for the HADES method. Please Consult the documentiaton for further guidance
-
-## Downloading data
-Due to privacy the DMT data is only provided in terms of the FHs projections. The original data is available upon request from the authors of the experiment.
-To derive the Functional Harmonics, the dense functional connectome of the HCP dataset was used and can be accessed here.
-Important: Certain parts of generate_paper_figures.m and generate_paper_suppfigures.m rely on this OSF-hosted data. Ensure it's saved in the correct folders for smooth script execution.
+In order to generate the manuscript Figures additional files have to be downloaded from the OSF repository: [https://osf.io/asntf/](https://osf.io/3qjp5/).
 
 ## Original data
 The original empirical data stem from the Human Connectome Project. Refer to the provided link for comprehensive access, licensing, and usage terms.
-
+Codes and parts of the analysis are built upon Pang et al. 2023 publication https://www.nature.com/articles/s41586-023-06098-1
 
 ## Compatibility
 Codes are tested on MATLAB versions R2023b.
