@@ -10,13 +10,6 @@ Code related to the preprint titled "[Beyond cortical geometry: brain dynamics s
 
 ## File descriptions
 
-
-1. `p1_HADES_DMT_FMRI_main_projectFH.m`: MATLAB script to project functional harmonics onto the timeseries
-2. `p2_HADES_DMT_spatiotemporal_analysis.m`: MATLAB script to calculate the spatio-temporal analysis
-3. `p3_HADES_DMT_dynamic_analysis_publication.m`: MATLAB script to calculate dynamic analysis
-4. `p4_HADES_DMT_latent_space_analysis_publication.m`: MATLAB script to calculate latent space analysis analysis
-
-## Supplementary file descriptions
 1. `generate_Figure2_eigenmode_analysis_32k_EDRLR_all_subjects_fmri.m`: MATLAB script to reproduce Figure 2
 2. `generate_result1_eigenmode_analysis_32k_EDRLR_all_subjects_tmri.m`: MATLAB script to reproduce parts of Figure 3
 3. `generate_Figure3_eigenmode_plotting_32k_connectome_v7_tk14.m`: MATLAB script to reproduce parts of Figure 3
