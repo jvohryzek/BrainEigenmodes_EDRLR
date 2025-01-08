@@ -1,6 +1,6 @@
 # BrainEigenmodes_EDRLR
 
-Code related to the preprint titled "[Beyond cortical geometry: brain dynamics shaped by long-range connections](https://www.biorxiv.org/content/10.1101/2024.04.09.588757v1.abstract)"
+Code related to the preprint titled "[Human brain dynamics are shaped by rare long-range connections over and above cortical geometry](https://www.pnas.org/doi/10.1073/pnas.2415102122)"
 
 ## Folder descriptions
 
@@ -27,7 +27,7 @@ Codes are tested on MATLAB versions R2023b.
 
 ## Citation
 
-[Preprint] J. Vohryzek, M.L. Kringelbach ,G. Deco, Beyond cortical geometry: brain dynamics shaped by long-range connections, bioRxiv (2004) (DOI: [doi.org/10.1101/2024.04.09.588757](https://www.biorxiv.org/content/10.1101/2024.04.09.588757v1.abstract))
+[PNAS] J. Vohryzek, Sanz-Perl Y, M.L. Kringelbach ,G. Deco, Human brain dynamics are shaped by rare long-range connections over and above cortical geometry, PNAS (2025) (DOI: [https://doi.org/10.1073/pnas.2415102122](https://www.pnas.org/doi/10.1073/pnas.2415102122))
 
 ## Further details
-contact jakub.vohryzek@upf.edu
+contact: jakub.vohryzek@upf.edu
