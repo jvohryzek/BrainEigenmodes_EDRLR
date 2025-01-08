@@ -2,6 +2,9 @@
 
 Code related to the preprint titled "[Human brain dynamics are shaped by rare long-range connections over and above cortical geometry](https://www.pnas.org/doi/10.1073/pnas.2415102122)"
 
+Short Summary
+Explaining how structure of the brain gives rise to its emerging dynamics is a primary pursuit in neuroscience. We describe a fundamental anatomical constraint that emphasizes the key role of rare long-range (LR) connections in explaining functional organization of the brain in terms of spontaneous and task-evoked activity. Specifically, this constraint unifies brain geometry and local connectivity through the exponential distance rule while considering the LR exceptions to this local connectivity as derived from the structural connectome. In addition, when using this structural information, we show that the task-evoked brain activity is described by a low-dimensional manifold of several modes, suggesting that less is more for the efficient information processing in the brain.
+
 ## Folder descriptions
 
 1. `Connectome_Derivation/`: folder containing data and codes to derive the various anatomical priors
