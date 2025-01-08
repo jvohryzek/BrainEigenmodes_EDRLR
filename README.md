@@ -19,7 +19,8 @@ Simply download the repository to get started.
 In order to generate the manuscript Figures additional files have to be downloaded from the OSF repository: [https://osf.io/asntf/](https://osf.io/3qjp5/).
 
 ## Original data
-The original empirical data stem from the Human Connectome Project. Refer to the provided link for comprehensive access, licensing, and usage terms.
+The original empirical data stem from the [Human Connectome Project](https://www.humanconnectome.org/). Refer to the provided link for comprehensive access, licensing, and usage terms.
+
 Codes and parts of the analysis are built upon Pang et al. 2023 publication https://www.nature.com/articles/s41586-023-06098-1
 
 ## Compatibility
