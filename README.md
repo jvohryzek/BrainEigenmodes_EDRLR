@@ -10,9 +10,9 @@ Code related to the preprint titled "[Human brain dynamics are shaped by rare lo
 
 ## File descriptions
 
-1. `generate_Figure2_eigenmode_analysis_32k_EDRLR_all_subjects_fmri.m`: MATLAB script to reproduce Figure 2
-2. `generate_result1_eigenmode_analysis_32k_EDRLR_all_subjects_tmri.m`: MATLAB script to reproduce parts of Figure 3
-3. `generate_Figure3_eigenmode_plotting_32k_connectome_v7_tk14.m`: MATLAB script to reproduce parts of Figure 3
+1. `PNAS_Figure_2_main.m`: MATLAB script to reproduce Figure 2
+2. `PNAS_Figure_3_main_part_ABC.m`: MATLAB script to reproduce parts of Figure 3
+3. `PNAS_Figure_3_main_part_CD.m`: MATLAB script to reproduce parts of Figure 3
 
 ## Installation
 Simply download the repository to get started.
